@@ -1,0 +1,79 @@
+{
+  "name": "qingting",
+  "authors": [
+    "xulongfei <xulongfei1@jd.com>"
+  ],
+  "description": "倾听神器系统",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "vue": "^2.1.6",
+    "font-awesome": "^4.7.0",
+    "nprogress": "^0.2.0",
+    "pnotify": "^3.0.0",
+    "echarts": "^3.3.2",
+    "datatables.net": "^1.10.13",
+    "datatables.net-bs": "^1.10.13",
+    "datatables.net-responsive": "^2.1.1",
+    "datatables.net-responsive-bs": "^2.1.1",
+    "moment": "^2.17.1",
+    "datatables.net-fixedcolumns": "^3.2.2",
+    "datatables.net-fixedcolumns-bs": "^3.2.2",
+    "datatables.net-fixedheader": "^3.1.2",
+    "datatables.net-fixedheader-bs": "^3.1.2",
+    "vue-slider-component": "https://github.com/NightCatSama/vue-slider-component.git#^2.1.9"
+  },
+  "overrides": {
+    "echarts": {
+      "main": [
+        "dist/echarts.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "./dist/fonts/**.*"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/FontAwesome.otf",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.svg",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.woff2"
+      ]
+    },
+    "vue": {
+      "main": [
+        "dist/vue.js"
+      ]
+    },
+    "pnotify": {
+      "main": [
+        "dist/pnotify.js",
+        "dist/pnotify.css"
+      ]
+    },
+    "moment": {
+      "main": [
+        "moment.js",
+        "locale/zh-cn.js"
+      ]
+    }
+  }
+}
