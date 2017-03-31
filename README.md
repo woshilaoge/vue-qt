@@ -1,8 +1,8 @@
-qingting
+vue-demo
 ====
-倾听神器系统
+demo系统
 
-By xulongfei   2017/3/14
+by xulongfei   2017/3/14
 
 
 ### JS目录结构
