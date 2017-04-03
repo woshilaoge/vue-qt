@@ -2,7 +2,7 @@ vue-demo
 ====
 demo系统
 
-by xulongfei   2017/3/14
+by woshilaoge   2017/3/14
 
 
 ### JS目录结构
